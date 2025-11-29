@@ -65,40 +65,18 @@
 }
 .title6{padding-top: 25px;}
 
-
-.bac1{
-  background-image: url("imgs/4-1.avif");
-  background-size: contain;
-  background-position: center;
-  width: 708px;
-  height: 345px;
-
-  filter: opacity(0.4)
-  
-
-}
-.bac2{
-   background-image: url("imgs/4-2.avif");
-  background-size: contain;
-  background-position: center;
-    width: 708px;
-  height: 345px;
-  margin-left: 25px;
-
-  filter: opacity(0.4);
-
- 
-}
 .bac2-1{transform: translateY(-190px);}
 .coun2{margin: 20px auto;}
 .buy{
   color: #3f8307;
   cursor: pointer;
 }
-.img02{
-  margin-top: 110px;
-  filter: none;
+.img01{
+  filter: opacity(0.4);
+}
 
+.img021{
+transform: translateY(-150px);
 }
 .hov1{ margin-top: 0px;}
 .bac1:hover{
@@ -107,11 +85,20 @@
 
   }
 }
+
+
 @media all and (min-width:1400px){
 .andaze{
   width: 450px;
   margin-right: 10px;
 }
+.bac1{width: 670px;height: 350px;}
+.img01:hover{
+  filter: opacity(0.2);
+  border-top:5px solid rgb(5, 214, 5) ;
+
+}
+
 
 }
 @media all and (min-width:992px) and (max-width:1400px){
@@ -119,8 +106,32 @@
   margin-left: 25px;}
   .andaze2{width: 250px;}
 
+  .bac1{width: 490px;height: 350px;}
+
+
 }
 @media all and (min-width:200px) and (max-width:991px){
-  .bac1{width: 800px;}
-  .bac2{width: 800px;}}
+
+}
 .cursor{cursor: pointer;}
+.hard{ background-color: #f8f8f8;
+  height: 50px;}
+.hard:hover{background-color: rgb(151, 149, 149);
+transition: all 900ms 0s;}
+.fot1{
+  background-color: rgb(236, 236, 236);
+}
+.ro1{padding-left:  80px;}
+.ro{padding-left: 120px;}
+.khat::after{
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  display: block;
+  transform: scaleX(0);
+  transition: all 300ms ease 0s;
+  transform-origin: left;
+}
+.accordion-button{background-color: rgb(236, 236, 236)}
+.colori{ color: #222;}
