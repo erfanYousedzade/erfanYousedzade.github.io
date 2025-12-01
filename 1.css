@@ -8,7 +8,8 @@
   font-family: "Noto Sans";
   src: url("font/NotoSans.eot");
   src: url("NotoSans.eot?#iefix") format("embedded-opentype"),
-    url("font/NotoSans.woff2") format("woff2"), url("font/NotoSans.woff") format("woff"),
+    url("font/NotoSans.woff2") format("woff2"),
+    url("font/NotoSans.woff") format("woff"),
     url("font/NotoSans.ttf") format("truetype"),
     url("NotoSans.svg#NotoSans") format("svg");
   font-weight: normal;
@@ -18,11 +19,16 @@
 .first1 {
   margin-left: 30px;
 }
-.img4{width: 200px;}
-.li01{cursor: pointer;padding: 8px;}
-.li01:hover{background-color:rgb(225, 220, 220);}
-
-
+.img4 {
+  width: 200px;
+}
+.li01 {
+  cursor: pointer;
+  padding: 8px;
+}
+.li01:hover {
+  background-color: rgb(233, 231, 231);
+}
 
 .ff1 {
   margin-right: 10px;
@@ -34,20 +40,34 @@
 .ul1 {
   padding-right: 30px;
 }
-.li1 {padding-right: 20px;font-size: 18px;}
-.img1 {margin-left: 20px;}
+.li1 {
+  padding-right: 20px;
+  font-size: 18px;
+}
+.img1 {
+  margin-left: 20px;
+}
 
-.search1 {margin-right: 15px;}
-.cola {color: #222;}
+.search1 {
+  margin-right: 15px;
+}
+.cola {
+  color: #222;
+}
 
 .lip {
   color: black;
   margin-right: 45px;
   font-size: 20px;
   text-decoration: none;
+  transition: all 700ms 0s;
 }
-.e1:hover { background-color: gray;}
-.zir{font-size: 14px;}
+.e1:hover {
+  background-color: gray;
+}
+.zir {
+  font-size: 14px;
+}
 .zir::after {
   content: "";
   width: 100%;
@@ -58,72 +78,101 @@
   transition: all 300ms ease 0s;
   transform-origin: left;
 }
-.zir:hover::after {transform: scaleX(1);}
-.baby3{
-  padding-right: 30px;
-
+.zir:hover::after {
+  transform: scaleX(1);
 }
-.title6{padding-top: 25px;}
+.baby3 {
+  padding-right: 30px;
+}
+.title6 {
+  padding-top: 25px;
+}
 
-.bac2-1{transform: translateY(-190px);}
-.coun2{margin: 20px auto;}
-.buy{
+.bac2-1 {
+  transform: translateY(-190px);
+}
+.coun2 {
+  margin: 20px auto;
+}
+.buy {
   color: #3f8307;
   cursor: pointer;
 }
-.img01{
+.img01 {
   filter: opacity(0.4);
+  transition: all 200ms 0s;
 }
 
-.img021{
-transform: translateY(-150px);
+.img021 {
+  transform: translateY(-150px);
 }
-.hov1{ margin-top: 0px;}
-.bac1:hover{
-  .img02{
+.hov1 {
+  margin-top: 0px;
+}
+.bac1:hover {
+  .img02 {
     display: block;
-
   }
 }
+.baby3:hover{ font-weight: bold;}
+.a01{ color: rgb(2, 153, 2); }
 
-
-@media all and (min-width:1400px){
-.andaze{
-  width: 450px;
-  margin-right: 10px;
+@media all and (min-width: 1400px) {
+  .andaze {
+    width: 450px;
+    margin-right: 10px;
+  }
+  .bac1 {
+    width: 670px;
+    height: 350px;
+  }
+  .img01:hover {
+    filter: opacity(0.1);
+    border-top: 5px solid rgb(5, 214, 5);
+  }
+  .andaze2{
+    width: 350px;
+  }
 }
-.bac1{width: 670px;height: 350px;}
-.img01:hover{
-  filter: opacity(0.2);
-  border-top:5px solid rgb(5, 214, 5) ;
+@media all and (min-width: 992px) and (max-width: 1400px) {
+  .andaze {
+    width: 300px;
+    margin-left: 25px;
+  }
+  .andaze2 {
+    width: 247px;
+  }
 
-}
-
-
-}
-@media all and (min-width:992px) and (max-width:1400px){
-  .andaze{ width: 300px;
-  margin-left: 25px;}
-  .andaze2{width: 250px;}
-
-  .bac1{width: 490px;height: 350px;}
+  .bac1 {
+    width: 490px;
+    height: 350px;
+  }
 
 
 }
-@media all and (min-width:200px) and (max-width:991px){
-
+@media all and (min-width: 200px) and (max-width: 991px) {
 }
-.cursor{cursor: pointer;}
-.hard{ background-color: #f8f8f8;
-  height: 50px;}
-.hard:hover{background-color: rgb(151, 149, 149);
-transition: all 900ms 0s;}
-.fot1{
+.cursor {
+  cursor: pointer;
+}
+.hard {
+  background-color: #f8f8f8;
+  height: 50px;
+}
+.hard:hover {
+  background-color: rgb(203, 201, 201);
+  transition: all 900ms 0s;
+}
+.fot1 {
   background-color: rgb(236, 236, 236);
 }
-.ro1{padding-left:  80px;}
-.ro{padding-left: 120px;}
-.khat::after{
+.ro1 {
+  padding-left: 80px;
+}
+.ro {
+  padding-left: 120px;
+}
+.khat::after {
   content: "";
   width: 100%;
   height: 1px;
@@ -133,5 +182,28 @@ transition: all 900ms 0s;}
   transition: all 300ms ease 0s;
   transform-origin: left;
 }
-.accordion-button{background-color: rgb(236, 236, 236)}
-.colori{ color: #222;}
+.khat:hover::after {
+  transform: scaleX(1);
+}
+.accordion-button {
+  background-color: rgb(236, 236, 236);
+}
+.colori {
+  color: #222;
+}
+.img10 {
+  width: 40px;
+  margin-left: 15px;
+}
+.fot2 {
+  background-color: rgb(236, 236, 236);
+  height: 290px;
+}
+.end1 {
+  border-right: 1px solid gray;
+  padding-right: 15px;
+  font-size: 14px;
+}
+.end12 {
+  font-size: 14px;
+}
